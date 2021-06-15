@@ -11,7 +11,7 @@ const workingTimeRoute = require("./routes/WorkingTime");
 app.use(express.static(path.join(__dirname, "public", "stylesheet")));
 
 
-  app.use(workingTimeRoute);
+ // app.use(workingTimeRoute);
   app.use(homeRoute);
   app.use(servicesRoute);
   app.use(contactRoute);

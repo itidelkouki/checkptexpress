@@ -13,6 +13,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  color: #3211c7;
   
 }
 .logo {
@@ -42,6 +43,7 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
+  font-weight: bold;
 }
 .nav.active {
   background-color: #fff;
@@ -59,7 +61,7 @@ body {
   font-weight: bold;
 }
 .car-image {
-  background-image: url("https://www.journaldugeek.com/content/uploads/2016/08/Best_budget_laptops_2015_thumb800-780x439.jpg");
+  background-image: url("https://lh3.googleusercontent.com/proxy/xEGl58B6y2i3bbE4xQBgWwSK9cvVl7vWgq5rzV1feMMauWkvTXUV915-_x35BebRcPQQFwYAkqAJgI2YzeCyB32tbeyhJfO--cNcIkhWnHCDk6IA9go4W0PSY1Dw3uTYxXp716nF97bm");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -115,6 +117,7 @@ body {
 .card-title,
 .icon {
   margin-bottom: 25px;
+  font-weight: bolder;
 }
 .icon {
   font-size: 4rem;
@@ -123,4 +126,8 @@ body {
   text-align: center;
   margin: 6rem 0 0 2rem;
   color: rgba(245, 229, 12, 0.945);
+}
+
+.card-text{
+  font-weight: bold;
 }
