@@ -2,62 +2,62 @@
     margin-top: 7rem;
     display: flex;
     height: 100vh;
-}
-.right-col {
+  }
+  .right-col {
     height: 100vh;
     padding: 5rem 0;
     margin-left: auto;
     margin-right: auto;
-}
-.contact-container h1, label, button, .description {
+  }
+  .contact-container h1, label, button, .description {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     letter-spacing: 0.1rem;
-}
-
-.contact-container h1 {
-    color: #f5f4fc;
+  }
+  
+  .contact-container h1 {
+    color: #e4a1ff;
     text-transform: uppercase;
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
     font-weight: 400;
     
-}
-
-.contact-container p {
-    color: #1c0669;
+  }
+  
+  .contact-container p {
+    color: #420355;
     font-size: 0.9rem;
     letter-spacing: 0.01rem;
     width: 40vw;
     margin: 0.25rem 0;
-}
-
-label, .description {
-    color: #1c0669;
+  }
+  
+  label, .description {
+    color: #be0af5;
     text-transform: uppercase;
     font-size: 1rem;
-}
-
-form {
+  }
+  
+  form {
     width: 31.25rem;
     margin-top: 2rem;
     padding: 1rem 0;
-}
-
-input, textarea, label {
+  }
+  
+  input, textarea, label {
     width: 40vw;
     display: block;
-}
-
-.contact-container p, placeholder, input, textarea {
+  }
+  
+  .contact-container p, placeholder, input, textarea {
     font-family: 'Helvetica Neue', sans-serif;
-}
-
-input::placeholder, textarea::placeholder {
+  }
+  
+  input::placeholder, textarea::placeholder {
     color: #010712;
-}
-
-input, textarea {
+  }
+  
+  input, textarea {
     color: #010712;
     font-weight: 500;
     background: #FCFDFD;
@@ -66,11 +66,11 @@ input, textarea {
     padding: 0.5rem 0;
     margin-bottom: 1rem;
     outline: none;
-}
-textarea {
+  }
+  textarea {
     resize: none;
-}
-button {
+  }
+  button {
     text-transform: uppercase;
     font-weight: 300;
     background: #3B3636;
@@ -81,14 +81,14 @@ button {
     border-radius: 2px;
     outline: none;
     cursor: pointer;
-}
-button:hover {
+  }
+  button:hover {
     opacity: 0.8;
-}
-button:active {
+  }
+  button:active {
     opacity: 0.8;
-}
-@media only screen and (max-width: 950px) {
+  }
+  @media only screen and (max-width: 950px) {
     .logo {
         width: 8rem;
     }
@@ -108,12 +108,12 @@ button:active {
     button {
         width: 7rem;
     }
-}
-.client-signin{
-    
-        padding: 30px 20px;
-        height: 550px;
-        width: 370px;
-        
+  }
+  .client-signin{
       
-}
+    padding: 30px 20px;
+    height: 550px;
+    width: 370px;
+    
+  
+  }
